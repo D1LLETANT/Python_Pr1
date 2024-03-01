@@ -1,0 +1,23 @@
+import math
+#1
+var_int = 10
+var_float = 8.4
+var_string = "No"
+print (var_int)
+#2
+big_int = var_int * 3.5
+#3
+var_float -= 1
+#4
+print(var_int / var_float)
+print(big_int / var_float)
+#5
+print( var_string * 2 + "Yes" * 3)
+#6
+x = int(input("Введіть х: "))
+b = int(input("Введіть b: "))
+a = int(input("Введіть a: "))
+
+result = (x**4-x**2-b)/(x-b)*(x**3-x-a)/(x-a)
+
+print(f"Завдання 6 \n Змінні: \n a1 = {x} \n b1 = {b} \n a2 = {a}")
